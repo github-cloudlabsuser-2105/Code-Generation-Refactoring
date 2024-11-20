@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = '20505542222d4006ddff5eedbd5d8337'
+API_KEY = '90311a0296cef358b230637f658c3575'
 
 @app.route('/weather', methods=['GET'])
 def get_weather():

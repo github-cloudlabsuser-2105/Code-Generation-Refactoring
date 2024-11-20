@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const API_KEY = '20505542222d4006ddff5eedbd5d8337';
+const API_KEY = '90311a0296cef358b230637f658c3575s';
 
 app.get('/weather', async (req, res) => {
     const city = req.query.city;
